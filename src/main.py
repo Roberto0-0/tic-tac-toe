@@ -60,7 +60,7 @@ def main():
         line = int(input("Linha %s: "%(value)))
         column = int(input("Coluna %s: "%(value)))
 
-        if(cahck(matriz[line][column])): continue
+        if(chack(matriz[line][column])): continue
         else: matriz[line][column] = value
 
         showGame(matriz, value)
